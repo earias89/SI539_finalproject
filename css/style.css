@@ -1,377 +1,479 @@
+body{
+  margin: 10px 50px 10px 50px;
+  background-color: rgb(78, 73, 71);
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;    
+} 
 
- body{
-    margin: 10px 50px 10px 50px;
-    background-color: rgb(78, 73, 71);
-    color: whitesmoke;
-    font-size: 25px;
-    font-family: 'Cormorant Garamond', serif;    
- } 
- nav ul{
-    display: block;
-    flex-direction: column;
-    font-size: 15px;
-    align-items: justify;
-    margin-left: 160px;
-    margin-top: 30px;
-    font-size: 18px;
+a.skip{
+background: white;
+padding: 6px;
+-webkit-transition: top 1s ease-out;
+transition: left 1s ease-out;
+z-index: 1;
+position: absolute;
+left: -400px;
+top: -200px; 
+}
+
+.skip:focus{
+top: 20px ;
+left: 60px;
+text-decoration-color: orangered;
+text-decoration-line: overline;
+text-decoration-thickness: 5px;
+background-color: rgb(78, 73, 71);
+color: whitesmoke;
+font-weight: bold;
+}
+
+nav ul{
+  display: block;
+  flex-direction: column;
+  font-size: 15px;
+  align-items: justify;
+  margin-left: 160px;
+  margin-top: 30px;
+  font-size: 18px;
 }
 nav a:focus{
-  text-decoration-color: orangered  ;
-  text-decoration-line: overline;
-  text-decoration-thickness: 5px;
-  font-weight: bold;
-  }
+text-decoration-color: orangered  ;
+text-decoration-line: overline;
+text-decoration-thickness: 5px;
+font-weight: bold;
+}
 
 nav a{
-    text-decoration: none;
-    margin-left: 80px;
-    font-size: 25px;
-    color: whitesmoke;
-    font-family: 'Cormorant Garamond', serif;
-    
+  text-decoration: none;
+  margin-left: 80px;
+  font-size: 25px;
+  color: whitesmoke;
+  font-family: 'Cormorant Garamond', serif;
+  
 }
 
 a:visited{
-    color: whitesmoke; 
-    font-family: 'Cormorant Garamond', serif;
+  color: whitesmoke; 
+  font-family: 'Cormorant Garamond', serif;
 }
 
 nav a.current{
-    text-decoration-style: none;
-    text-decoration-line: underline;
-    text-underline-offset: 10px;
-    text-decoration-color: black;
-    color: black;
-    font-family: 'Cormorant Garamond', serif;
+  text-decoration-style: none;
+  text-decoration-line: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: black;
+  color: black;
+  font-family: 'Cormorant Garamond', serif;
 }
 
-div h1{
-    margin: 30px;
-    font-size: 40px;
-    color: whitesmoke;
-    text-align: center;
-    margin-top: -350px;
-    margin-bottom: -30px;
-}
+/* div h1{
+  margin: 30px;
+  font-size: 45px;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: -350px;
+  margin-bottom: -30px;
+} */
+
 .tagline{
-    font-size: 25px;
-    text-align: center;
-    color: whitesmoke;
+  font-size: 25px;
+  text-align: center;
+  color: whitesmoke;
 }
 .about{ 
-    margin-top: 30px; 
-    font-size: 22px;  
-    line-height: 1.2;
-    margin-top: 280px;
-    text-align: center;
+  margin-top: 30px; 
+  font-size: 22px;  
+  line-height: 1.2;
+  margin-top: 280px;
+  text-align: center;
 } 
-
-.selfimg{
- margin-top: -500px;
-  margin-right: -1000px; 
+.hello{
+  margin-top: 100px; 
 }
+
+
+/* .selfimg{
+margin-top: -500px;
+margin-right: -1000px; 
+} */
 
 footer{
-  margin-top: 300px;
-  margin-bottom: 70px;
+margin-top: 300px;
+margin-bottom: 70px;
 }
 div h4{
-  text-align: center;
-  margin-bottom: -150px;
-  margin-top: 30px;
-  font-size: 35px;
+text-align: center;
+margin-bottom: -150px;
+margin-top: 30px;
+font-size: 35px;
 }
 
 div h2{
-  margin: 30px;
-  font-size: 35px;
-  color: whitesmoke;
-  text-align: center;
-  margin-top: 200px;
-  margin-bottom: 5px;
+margin: 30px;
+font-size: 35px;
+color: whitesmoke;
+text-align: center;
+margin-top: 200px;
+margin-bottom: 5px;
 }
-  .voluntaryimage{
-    margin-top: 30px;
-    margin-bottom: -130px;
-  }
-
-  .toolkitimage{
-    margin-top: 30px;
-    margin-bottom: -130px;
-  }
-  .idealmateimage{
-    margin-top: 30px;
-    margin-bottom: -130px;
-  }
-  .transimage{
-    margin-top: 30px;
-    margin-bottom: -130px;
-  }
-  .enhancedimage{
-    margin-top: 30px;
-    margin-bottom: -130px;
-  }
-  .cvfsimage{
-    margin-top: 30px;
-    margin-bottom: -130px;
-  }
-  .childfreeimage{
-    margin-top: 30px;
-    margin-bottom: -130px;
-  }
-  .feltloveimage{
-    margin-top: 30px;
-    margin-bottom: -130px;
-  }
-  .casualseximage{
-    margin-top: 30px;
-    margin-bottom: -130px;
-  }
-.cnmimage{
+.voluntaryimage{
   margin-top: 30px;
   margin-bottom: -130px;
+}
+
+.toolkitimage{
+  margin-top: 30px;
+  margin-bottom: -130px;
+}
+.idealmateimage{
+  margin-top: 30px;
+  margin-bottom: -130px;
+}
+.transimage{
+  margin-top: 30px;
+  margin-bottom: -130px;
+}
+.enhancedimage{
+  margin-top: 30px;
+  margin-bottom: -130px;
+}
+.cvfsimage{
+  margin-top: 30px;
+  margin-bottom: -130px;
+}
+.childfreeimage{
+  margin-top: 30px;
+  margin-bottom: -130px;
+}
+.feltloveimage{
+  margin-top: 30px;
+  margin-bottom: -130px;
+}
+.casualseximage{
+  margin-top: 30px;
+  margin-bottom: -130px;
+}
+.cnmimage{
+margin-top: 30px;
+margin-bottom: -130px;
 }
 .socialmediaimage{
+margin-top: 30px;
+margin-bottom: -130px;
+}
+.ovulationimage{
   margin-top: 30px;
   margin-bottom: -130px;
 }
-  .ovulationimage{
-    margin-top: 30px;
-    margin-bottom: -130px;
-  }
 
 .connect{
-    margin-top: -10px;
+  margin-top: -10px;
 
 }
 div h3{
-  margin: 30px;
-  font-size: 35px;
-  color: whitesmoke;
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: 5px;
+margin: 30px;
+font-size: 35px;
+color: whitesmoke;
+text-align: center;
+margin-top: 60px;
+margin-bottom: 5px;
 }
 .cv{
-  margin-top: 60px;
+margin-top: 60px;
 }
 
 
 
 @media only screen and (min-width: 1200px) {
- 
- .voluntaryimage, .idealmateimage, .transimage{
-    width: 100%; 
-  }
 
-main img{
-  background-image: url(../images/main.jpg);
-  background-color: #cbcbcb;
-  min-height: 1500px;
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat:no-repeat;
-  background-size: cover;
-  color: aliceblue;
-  transition-property: border-radius, color, width; 
-  transition-duration: 3s; 
-  transition-timing-function: ease-in; 
-  transition-delay: .25s; 
-  display: flex; 
-  justify-content: center;
-}
+/* .voluntaryimage, .idealmateimage, .transimage{
+  width: 100%; 
+} */
 
-main img:hover {
-  filter:contrast(65%);
-  color:#FFFFFF;
-  /* width: 400px; */
-  border-radius: 50%;
+/* main img{ */
+/* background-image: url(../images/main.jpg); */
+/* background-color: #cbcbcb; */
+/* min-height: 1500px;
+width: 100%; */
+/* background-attachment: fixed; */
+/* background-position: center;
+background-repeat:no-repeat; */
+/* background-size: cover; */
+/* transition-property: border-radius, color, width;
+transition-duration: 3s;  */
+/* transition-timing-function: ease-in; 
+transition-delay: .25s;  */
+/* display: flex; 
+justify-content: center; */
+/* }
+
+main img:hover { */
+/* filter:contrast(100%); */
+/* color:#FFFFFF; */
+/* width: 400px; */
+/* border-radius: 50%; */
+/* display: flex; */
+/* justify-content: center; */
+/* }  */
+
+nav ul{
   display: flex;
-  justify-content: center;
-} 
-
- nav ul{
-    display: flex;
-    flex-direction: row;
-    column-gap: 100px;
-    font-size: 35px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  flex-direction: row;
+  column-gap: 55px;
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 nav a{
-    text-decoration: none;
-    padding: 30px 30px 20px 40px;
-    margin: 10px 10px 10px 40px;
-    font-size: 25px;
-    color: whitesmoke;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: bold;
+  text-decoration: none;
+  padding: 30px 30px 20px 40px;
+  margin: 10px 10px 10px 40px;
+  font-size: 25px;
+  color: whitesmoke;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
 }
 
 
 h2{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .hello{
-    margin-left: 60px;
-    margin-top: -2030px;
+  margin-left: 60px;
+  margin-top: -2030px;
 }
 
 .tagline p{
-    font-size: 35px;
-    text-align: center;
-    margin: 70px 100px 20px 100px;
-    padding: 0px 100px 10px 100px;
-    font-size: 50px;
+  font-size: 35px;
+  text-align: center;
+  margin: 180px 100px 10px 100px;
+  padding: 0px 100px 10px 100px;
+  font-size: 50px;
+}
+div h1{
+  margin-top: 650px;
+  margin-bottom: -180px;
+  font-size: 60px;
 }
 .about p{
-    margin-right: 450px;
-    margin-left: 400px;
-    margin-top: -200px;
-    font-size: 28px;
+  margin-right: 450px;
+  margin-left: 400px;
+  margin-top: -280px;
+  font-size: 28px;
 }
 footer{
-  /* margin-top: -100px; */
-  margin-bottom: 100px;
-  margin-left: 40px;
-  margin-top: 1000px;
+/* margin-top: -100px; */
+margin-bottom: 100px;
+margin-left: 40px;
+margin-top: 900px;
 }
 
-.selfimg{
-  margin-left: 45px;
-  margin-top: -450px;
+
+.grid{
+  display: grid;
+  width:  100%;
+  grid-template-columns: 40% 60%;
+  position: relative;
+  column-gap: 20px;
+  justify-content: space-between;
+  margin: 20px 60px 20px 60px;
+  padding: 10px;
+} 
+
+.research1{ 
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.voluntaryimage{ 
+  grid-column: 2 / -1;
+  grid-row: 1;
+  margin-top: 200px;
+  margin-left: 200px;
+
 }
 
-.container{
-    display: grid;
-    width:  100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    position: relative;
-    column-gap: 20px;
-    justify-content: space-between;
-    margin: 18px 60px 18px 60px;
+.research1a{
+  grid-column: 2 / -1;
+  grid-row: 2;
+  margin-right: 200px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.toolkitimage{
+  grid-column: 1 / 2;
+  grid-row: 2;
+  margin-top: 250px;
+  margin-left: 20px;
 }
 
-.research1{
-    grid-column: 1 / 2;
-    grid-row: 1;
-    margin-top: -30px;
-    margin-left: 40px;
-    margin-right: 80px;
-    text-align: left;
-  }
-  .voluntaryimage{
-    grid-column: 2 / -1;
-    grid-row: 1;
-  }
+.research1b{
+  grid-column: 1 / 2;
+  grid-row: 3;
+  margin-top: -140px;
+}
+.idealmateimage{
+  grid-column: 2 / -1;
+  grid-row: 3;
+  margin-top: -390px;
+  margin-left: 710px;
+}
 
+.research2{
+  grid-column: 2 / -1;
+  grid-row: 4;
+  margin-top: -720px;
+  margin-left: 100px;
+  margin-right: 220px;
+}
+.transimage{
+  grid-column: 1 / 2;
+  grid-row: 4;
+  margin-top: -490px;
+  margin-right: 220px;
+}
+.research3{
+  grid-column: 1 / 2;
+  grid-row: 5;
+  margin-top: -220px;
+}
 
-  .research1a{
-    grid-column: 2 / -1;
-    grid-row: 2;
-  }
-  .toolkitimage{
-    grid-column: 1 / 2;
-    grid-row: 2;
-  }
+.enhancedimage{
+  grid-column: 2 / -1;
+  grid-row: 5;
+  margin-left: 160px;
+  margin-top: -5px;
+}
 
-  .research1b{
-    grid-column: 1 / 2;
-    grid-row: 3;
-  }
-  .idealmateimage{
-    grid-column: 2 / -1;
-    grid-row: 3;
-  }
-
-
-  .research2{
-    grid-column: 2 / -1;
-    grid-row: 4;
-  }
-  .transimage{
-    grid-column: 1 / 2;
-    grid-row: 4;
-  }
-  .research3{
-    grid-column: 1 / 2;
-    grid-row: 5;
-  }
-
-  .enhancedimage{
-    grid-column: 2 / -1;
-    grid-row: 5;
-  }
-
-
-  .research4{
-    grid-column: 2 / -1;
-    grid-row: 6;
-  }
-  .cvfsimage{
-    grid-column: 1 / 2;
-    grid-row: 6;
-  }
-  .research5{
-    grid-column: 1 / 2;
-    grid-row: 7;
-  }
-  .childfreeimage{
-    grid-column: 2 / -1;
-    grid-row: 7;
-  }
-  .research6{
-    grid-column: 2 / -1;
-    grid-row: 8;
-  }
-  .feltloveimage{
-    grid-column: 1 / 2;
-    grid-row: 8;
-  }
-  .research7{
-    grid-column: 1 / 2;
-    grid-row: 9;
-  }
-  .casualseximage{
-    grid-column: 2 / -1;
-    grid-row: 9;
-  }
-  .research8{
-    grid-column: 2 / -1;
-    grid-row: 10;
-  }
+.research4{
+  grid-column: 2 / -1;
+  grid-row: 6;
+  margin-top: -140px;
+  margin-left: 120px;
+  margin-right: 260px;
+}
+.cvfsimage{
+  grid-column: 1 / 2;
+  grid-row: 6;
+  margin-top: 80px;
+  margin-right: 320px;
+}
+.research5{
+  grid-column: 1 / 2;
+  grid-row: 7;
+  margin-top: -115px;
+}
+.childfreeimage{
+  grid-column: 2 / -1;
+  grid-row: 7;
+  margin-left: 115px;
+  margin-top: 75px;
+}
+.research6{
+  grid-column: 2 / -1;
+  grid-row: 8;
+  margin-top: 0px;
+  margin-left: 120px;
+  margin-right: 260px;
+}
+.feltloveimage{
+  grid-column: 1 / 2;
+  grid-row: 8;
+  margin-top: 220px;
+  margin-right: 320px;
+}
+.research7{
+  grid-column: 1 / 2;
+  grid-row: 9;
+  margin-top: 95px;
+}
+.casualseximage{
+  grid-column: 2 / -1;
+  grid-row: 9;
+  margin-left: 130px;
+  margin-top: 300px;
+}
+.research8{
+  grid-column: 2 / -1;
+  grid-row: 10;
+  margin-top: -150px;
+  margin-left: 120px;
+  margin-right: 260px;
+}
 .cnmimage{
-    grid-column: 1 / 2;
-    grid-row: 10;
+  grid-column: 1 / 2;
+  grid-row: 10;
+  margin-top: 60px;
+  margin-right: 320px;
 }
 .research9{
-    grid-column: 1 / 2;
-    grid-row: 11;
-  }
+  grid-column: 1 / 2;
+  grid-row: 11;
+  margin-top: -80px;
+}
 .socialmediaimage{
-    grid-column: 2 / -1;
-    grid-row: 11;
+  grid-column: 2 / -1;
+  grid-row: 11;
+  margin-left: 130px;
+  margin-top: 130px;
 }
 .research10{
-    grid-column: 2 / -1;
-    grid-row: 12;
-  }
-  .ovulationimage{
-    grid-column: 1 / 2;
-    grid-row: 12;
-  }
+  grid-column: 2 / -1;
+  grid-row: 12;
+  margin-top: -120px;
+  margin-left: 120px;
+  margin-right: 260px;
+}
+.ovulationimage{
+  grid-column: 1 / 2;
+  grid-row: 12;
+  margin-top: 100px;
+  margin-right: 320px;
+}
+.connect h3{
+  margin-top: -1600px;
+  color: black;
+}
+.connect p{
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: black;
+}
+.links a{
+  margin-left: 300px;
+  margin-right: 300px;
+  color: black;
+}
+/* .contact h2{
+  margin-top: -500px;
+  color: black;
+} */
+.contact {
+  margin-top: 80px;
+  margin-left: 530px;
+  color: black;
+}
+.cv {
+  margin-top: -1730px;
+  margin-right: 600px;
+  margin-left: 600px;
+  color: black;;
+  font-size: 35px;
+}
+.cv a{
+  color: black;
+}
 
-.connect{
-    margin-top: 100px;
-
+div h3{
+  font-size: 50px;
 }
 .tag{
-    margin-bottom: 0px;
-    margin-top: 60px;
-    margin-left: -560px;
+  margin-bottom: 0px;
+  margin-top: 60px;
+  margin-left: -560px;
 }
 }
