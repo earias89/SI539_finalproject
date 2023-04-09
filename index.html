@@ -7,16 +7,10 @@
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <!-- <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'> -->
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet"> -->
-
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
-
+<!-- <audio id="audio" src="https://open.spotify.com/playlist/6CtxYFV739NMzmmNMkNS9Z" controls></audio> -->
 
   <title>Erika's Portfolio</title>
 </head>
@@ -78,15 +72,72 @@
     <img src="images/IMG_4265.png" width="360">
     </div> -->
    
-  
 
-  
- 
    <!-- </main>  -->
   </body>
 
   <footer>
-   
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6CtxYFV739NMzmmNMkNS9Z?utm_source=generator" 
+    width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    
+
+     <!-- Add Music Player Here -->
+
+     <title>Simple Music Player</title>
+     <!-- Load FontAwesome icons -->
+     <link rel="stylesheet"
+           href=
+   "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+     <!-- Load the custom CSS style file -->
+     <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+     <div class="player">
+    
+       <!-- Define the section for displaying details -->
+       <div class="details">
+         <div class="now-playing">Sounds Like E.</div>
+         <div class="track-art"></div>
+         <div class="track-name">Track Name</div>
+         <div class="track-artist">Track Artist</div>
+       </div>
+    
+       <!-- Define the section for displaying track buttons -->
+       <div class="buttons">
+         <div class="prev-track" onclick="prevTrack()">
+           <i class="fa fa-step-backward fa-2x"></i>
+         </div>
+         <div class="playpause-track" onclick="playpauseTrack()">
+           <i class="fa fa-play-circle fa-5x"></i>
+         </div>
+         <div class="next-track" onclick="nextTrack()">
+           <i class="fa fa-step-forward fa-2x"></i>
+         </div>
+       </div>
+    
+       <!-- Define the section for displaying the seek slider-->
+       <div class="slider_container">
+         <div class="current-time">00:00</div>
+         <input type="range" min="1" max="100"
+           value="0" class="seek_slider" onchange="seekTo()">
+         <div class="total-duration">00:00</div>
+       </div>
+    
+       <!-- Define the section for displaying the volume slider-->
+       <div class="slider_container">
+         <i class="fa fa-volume-down"></i>
+         <input type="range" min="1" max="100"
+           value="99" class="volume_slider" onchange="setVolume()">
+         <i class="fa fa-volume-up"></i>
+       </div>
+     </div>
+    
+     <!-- Load the main script for the player -->
+     <script src="main.js"></script>
+     <!-- Add Music Player Here -->
+
+
     <a href="#main">Back to Top</a>
 
     <!-- add buttons here for Email, Linkedin, U-M page, GitHub  -->
