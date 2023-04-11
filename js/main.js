@@ -29,7 +29,6 @@ let track_list = [
     artist: "Erika",
     image: "images/track1.png",
     path: 'wav/TRACK1.wav'
-    // path:'mp3/Vocal Mix Early Ep 33 Wackernagel.mp3' **this is it.
   },
   {
     name: "Track 2",
@@ -41,19 +40,19 @@ let track_list = [
     name: "Track 3",
     artist: "Erika",
     image: "images/track3.png",
-    path: "wav/TRACK3.wav",
+    path: "wav/TRACK3.wav"
   },
   {
     name: "Erika",
     artist: "Track 4",
     image: "images/track4.png",
-    path: "wav/TRACK4.wav",
+    path: "wav/TRACK4.wav"
   },
   {
-    name: "Trak 5",
+    name: "Track 5",
     artist: "Erika",
     image: "images/track5.png",
-    path: "wav/TRACK5.wav",
+    path: "wav/TRACK5.wav"
   },
 ];
 
@@ -87,7 +86,7 @@ function loadTrack(track_index) {
    
     // Apply a random background color
   //   random_bg_color();
-  // }
+  }
    
   function random_bg_color() {
     // Get a random number between 64 to 256
