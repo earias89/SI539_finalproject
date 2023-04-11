@@ -27,33 +27,33 @@ let track_list = [
   {
     name: "Delicious",
     artist: "Pabzzz",
-    image: "Image URL",
-    path:'https://open.spotify.com/track/2O85L2Ujlt2zJX4WdaQ5i0?si=123dfb8ed77f4011'
-    //"Night_Owl.mp3"
+    image: "images/pabzzz.png",
+    path: 'wav/delicious.wav'
+    // path:'mp3/Vocal Mix Early Ep 33 Wackernagel.mp3' **this is it.
   },
   {
     name: "[b] how the party gonna be the night before 2050",
     artist: "Moow",
-    image: "Image URL",
-    path: "https://open.spotify.com/track/3mj4oyhQkxxyi6I42JRsEi?si=415bd63d6bbc4eba"
+    image: "images/moow2050.png",
+    path: "wav/moow2050.wav"
   },
   {
     name: "Baby",
     artist: "Moow",
-    image: "Image URL",
-    path: "https://open.spotify.com/track/0C53DBflfxKO6w5Rxua3GS?si=d86e00cae4824e1b",
+    image: "images/moow.png",
+    path: "wav/moowbaby.wav",
   },
   {
     name: "Dynamic",
     artist: "Voyage",
-    image: "Image URL",
-    path: "https://open.spotify.com/track/0nnk00JvI9OIYW3CiRty9m?si=f131897c963545fe",
+    image: "images/dyanmic.png",
+    path: "wav/dynamic.wav",
   },
   {
     name: "Airplane Mode",
     artist: "Mat.Joe",
-    image: "Image URL",
-    path: "https://open.spotify.com/track/0Vs8pYUqlJmci9N2WUjdY9?si=0faf563ec8f74922",
+    image: "images/airplane.png",
+    path: "wav/airplane.wav",
   },
 ];
 
