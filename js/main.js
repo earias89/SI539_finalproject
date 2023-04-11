@@ -25,35 +25,35 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
   {
-    name: "Delicious",
-    artist: "Pabzzz",
-    image: "images/pabzzz.png",
-    path: 'wav/delicious.wav'
+    name: "Track 1",
+    artist: "Erika",
+    image: "images/track1.png",
+    path: 'wav/TRACK1.wav'
     // path:'mp3/Vocal Mix Early Ep 33 Wackernagel.mp3' **this is it.
   },
   {
-    name: "[b] how the party gonna be the night before 2050",
-    artist: "Moow",
-    image: "images/moow2050.png",
-    path: "wav/moow2050.wav"
+    name: "Track 2",
+    artist: "Erika",
+    image: "images/track2.png",
+    path: "wav/TRACK2.wav"
   },
   {
-    name: "Baby",
-    artist: "Moow",
-    image: "images/moow.png",
-    path: "wav/moowbaby.wav",
+    name: "Track 3",
+    artist: "Erika",
+    image: "images/track3.png",
+    path: "wav/TRACK3.wav",
   },
   {
-    name: "Dynamic",
-    artist: "Voyage",
-    image: "images/dyanmic.png",
-    path: "wav/dynamic.wav",
+    name: "Erika",
+    artist: "Track 4",
+    image: "images/track4.png",
+    path: "wav/TRACK4.wav",
   },
   {
-    name: "Airplane Mode",
-    artist: "Mat.Joe",
-    image: "images/airplane.png",
-    path: "wav/airplane.wav",
+    name: "Trak 5",
+    artist: "Erika",
+    image: "images/track5.png",
+    path: "wav/TRACK5.wav",
   },
 ];
 
@@ -86,8 +86,8 @@ function loadTrack(track_index) {
     curr_track.addEventListener("ended", nextTrack);
    
     // Apply a random background color
-    random_bg_color();
-  }
+  //   random_bg_color();
+  // }
    
   function random_bg_color() {
     // Get a random number between 64 to 256
