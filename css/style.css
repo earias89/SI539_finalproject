@@ -29,8 +29,18 @@ font-weight: bold;
 }
 div img{
   border: 5px solid rgb(20, 19, 19);
-  /* border-radius: 100%; */
 }
+div .me img{
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+ }
+ div .player{
+  margin-top: -280px;
+ }
 nav ul{
   display: block;
   flex-direction: column;
@@ -454,14 +464,14 @@ display: flex;
 justify-content: center; 
  }
 
-/* main img:hover {  
-filter:contrast(100%); 
-color:#FFFFFF; 
-width: 400px; 
-border-radius: 50%; 
-display: flex; 
-justify-content: center; 
-}   */
+ .me{
+  margin-top: -150px;
+ }
+ div .player{
+  margin-top: -880px;
+  margin-left:30px;
+  margin-right: 72px;
+ }
 div img{
   border: 5px solid rgb(20, 19, 19);
   border-radius: 100%;}
